@@ -14,5 +14,16 @@ var posicao = jogo.indexOf("vs");
 
 console.log(posicao)
 
-var cortado = jogo.slice(11, )
+var cortado = jogo.slice(11, 0)
 console.log(cortado)
+
+var str1 = "hello"
+var str2 = "turma"
+
+var str3 = str1.concat(str2)
+console.log(str3)
+
+
+
+var val = jogo.includes("Corinthias")
+console.log(val)
